@@ -62,4 +62,5 @@ This project really helped me understand DOM events and timing in JavaScript.
 ---
 
 ## 🌐 Play It Here
-[Click here to play the game](https://kavitha-pinabakala-29.github.io/Simon-Says-Game/)
+[![PLAY NOW](https://img.shields.io/badge/PLAY%20NOW-Click%20Here-brightgreen?style=for-the-badge)](https://kavitha-pinabakala-29.github.io/Simon-Says-Game/)
+
