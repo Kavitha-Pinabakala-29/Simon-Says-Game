@@ -39,9 +39,7 @@ function levelUp(){
     let randIdx=Math.floor(Math.random()*3);
     let randColor=btns[randIdx];
     let randBtn=document.querySelector(`.${randColor}`);
-    // console.log(randBtn);
-    // console.log(randColor);
-    // console.log(randIdx);
+    
     gameSeq.push(randColor);
     console.log(gameSeq);
     gameFlash(randBtn);
@@ -50,9 +48,7 @@ function levelUp(){
 }
 
 function checkAns(idx){
-    //console.log("current level",level);
-    // let idx=level-1;
-
+    
     if(userSeq[idx]===gameSeq[idx]){
         if(userSeq.length===gameSeq.length){
            setTimeout(levelUp,1000);
@@ -89,4 +85,5 @@ function reset(){
     userSeq=[];
     level=0;
 }
+
 
