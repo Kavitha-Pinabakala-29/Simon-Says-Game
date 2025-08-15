@@ -37,3 +37,29 @@ index.html  # The game page
 style.css   # Colors and styling
 script.js   # Game logic
 README.md   # This file
+
+
+---
+
+## 📖 My Learning Experience
+Building this project was actually super fun.  
+The hardest part was syncing the flashing colors with proper delays — I had to figure out `setTimeout` usage correctly.  
+At first, my game skipped colors unexpectedly, but after debugging, it now works smoothly.  
+This project really helped me understand DOM events and timing in JavaScript.
+
+---
+
+## 📸 Screenshot
+![Simon Says Game Screenshot](Screenshot.png)
+
+---
+
+## 💡 Future Plans
+- Add **sound effects** for each color
+- Store **high scores** in local storage
+- Add a **hardcore mode** where colors shuffle positions every round
+
+---
+
+## 🌐 Play It Here
+[Click here to play the game](https://kavitha-pinabakala-29.github.io/Simon-Says-Game/)
